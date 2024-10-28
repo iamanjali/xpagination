@@ -38,7 +38,6 @@ function Pagination() {
         <tbody>
           {currentItems.map((item, index) => (
             <tr key={index}>
-              {/* <td>{(currentPage - 1) * itemsPerPage + index + 1}</td> */}
               <td>{item.id}</td>
               <td>{item.name}</td>
               <td>{item.email}</td>
