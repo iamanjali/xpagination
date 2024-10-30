@@ -55,7 +55,7 @@ function Pagination() {
           Previous
         </button>
 
-        <span>{currentPage}</span>
+        <span id="current-page">{currentPage}</span>
 
         <button
           onClick={() =>
